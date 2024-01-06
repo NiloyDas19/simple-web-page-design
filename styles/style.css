@@ -61,17 +61,29 @@
 
 .failure{
     display: flex;
-    margin: 0px 200px;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 105px;
+    margin-bottom: 130px;
 }
 
 .failure-img{
-    border-radius: 527.929px;
-    background: rgba(241, 91, 34, 0.20);
-    width: 527.929px;
-    height: 527.929px;
+    height: 724px;
+    width: 569px;
+    display: flex;
 }
 
+.img{
+    position: absolute;
+}
+
+.background-circle {
+    width: 527.929px;
+    height: 527.929px;
+    border-radius: 527.929px;
+    background: linear-gradient(0deg, #00b7ff 0%, rgba(0, 95, 172, 0.00) 100%);
+    align-self: self-end;
+    margin-left: 22px;
+}
 
 .failure-item-title{
     color: #151414;
@@ -83,6 +95,7 @@
     color: #444343;
     font-size: 16px;
     font-weight: 400;
+    margin-top:25px;
 }
 
 .failure-item-list{
@@ -90,8 +103,41 @@
     font-size: 16px;
     font-weight: 400;
     list-style: none;
+    margin-top: 16px;
 }
 
 .failure-item{
     margin-top: 370px;
+}
+
+/* my plan styles */
+.my-plan{
+    text-align: center;
+    margin: 250px 250px;
+}
+.my-plan-title{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+.my-plan-content{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 50px;
+}
+.my-plan-content-description{
+    padding: 20px 20px;
+}
+
+.my-plan-content-title{
+    color:  #151414;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+.my-plan-content-subtitle{
+    color: var(--Dark-03, #737272);
+    font-size: 25px;
+    font-weight: 500;
 }
