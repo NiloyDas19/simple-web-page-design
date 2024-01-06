@@ -15,7 +15,6 @@
     width: 100%;
     min-height: 808px;
     background-repeat: no-repeat;
-    position: fixed;
 }
 
 
@@ -28,9 +27,9 @@
     color: #151414;
     font-size: 65px;
     font-weight: 700;
-    margin-left: 845px;
-    margin-top: 216px;
-    margin-right: 230px;
+    padding-left: 845px;
+    padding-top: 216px;
+    padding-right: 230px;
     max-width: 525px;
 }
 
@@ -38,9 +37,9 @@
     color: #444343;
     font-size: 16px;
     font-weight: 400;
-    margin-top: 24px;
-    margin-left: 876px;
-    margin-right: 230px;
+    padding-top: 24px;
+    padding-left: 876px;
+    padding-right: 230px;
 }
 
 .header-item-btn{
@@ -53,8 +52,47 @@
     font-size: 20px;
     font-weight: 600;
     padding: 20px 25px;
-    margin-top: 53px;
-    margin-left: 1150px;
     margin-right: 230px;
-    margin-bottom: 166px;
+    margin-top: 50px;
+}
+
+
+/* main section style */
+
+.failure{
+    display: flex;
+    margin: 0px 200px;
+    justify-content: space-between;
+}
+
+.img{
+    
+}
+
+.img{
+    border-radius: 300.929px;
+    background: rgba(241, 91, 34, 0.20);
+}
+
+.failure-item-title{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.failure-item-description{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.failure-item-list{
+    color:  #444343;
+    font-size: 16px;
+    font-weight: 400;
+    list-style: none;
+}
+
+.failure-item{
+    margin-top: 370px;
 }
