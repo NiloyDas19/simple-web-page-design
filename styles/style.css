@@ -63,8 +63,7 @@
     display: flex;
     justify-content: center;
     gap: 105px;
-    margin-top: 150px;
-    margin-bottom: 130px;
+    margin: 150px 150px
 }
 
 .failure-img {
