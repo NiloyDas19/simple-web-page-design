@@ -2,15 +2,15 @@
 
 /* universal style */
 
-*{
+* {
     font-family: 'Work Sans', sans-serif;
     margin: 0px;
     padding: 0px;
-} 
+}
 
 
 /* header style */
-.header{
+.header {
     background-image: url('/images/banner/banner1.png');
     width: 100%;
     min-height: 808px;
@@ -18,12 +18,12 @@
 }
 
 
-.header-container{
+.header-container {
     text-align: right;
 }
 
 
-.header-item-title{
+.header-item-title {
     color: #151414;
     font-size: 65px;
     font-weight: 700;
@@ -33,7 +33,7 @@
     max-width: 525px;
 }
 
-.header-item-description{
+.header-item-description {
     color: #444343;
     font-size: 16px;
     font-weight: 400;
@@ -42,7 +42,7 @@
     padding-right: 230px;
 }
 
-.header-item-btn{
+.header-item-btn {
     width: 160px;
     height: 64px;
     border-radius: 5px;
@@ -59,20 +59,20 @@
 
 /* main section style */
 
-.failure{
+.failure {
     display: flex;
     justify-content: center;
     gap: 105px;
     margin-bottom: 130px;
 }
 
-.failure-img{
+.failure-img {
     height: 724px;
     width: 569px;
     display: flex;
 }
 
-.img{
+.img {
     position: absolute;
 }
 
@@ -85,59 +85,94 @@
     margin-left: 22px;
 }
 
-.failure-item-title{
+.failure-item-title {
     color: #151414;
     font-size: 40px;
     font-weight: 700;
 }
 
-.failure-item-description{
+.failure-item-description {
     color: #444343;
     font-size: 16px;
     font-weight: 400;
-    margin-top:25px;
+    margin-top: 25px;
 }
 
-.failure-item-list{
-    color:  #444343;
+.failure-item-list {
+    color: #444343;
     font-size: 16px;
     font-weight: 400;
     list-style: none;
     margin-top: 16px;
 }
 
-.failure-item{
+.failure-item {
     margin-top: 370px;
 }
 
 /* my plan styles */
-.my-plan{
+.my-plan {
     text-align: center;
     margin: 250px 250px;
 }
-.my-plan-title{
+
+.my-plan-title {
     color: #151414;
     font-size: 40px;
     font-weight: 700;
 }
-.my-plan-content{
+
+.my-plan-content {
     display: flex;
     justify-content: center;
     margin-top: 50px;
     gap: 50px;
 }
-.my-plan-content-description{
+
+.my-plan-content-description {
     padding: 20px 20px;
 }
 
-.my-plan-content-title{
-    color:  #151414;
+.my-plan-content-title {
+    color: #151414;
     text-align: center;
     font-size: 30px;
     font-weight: 700;
 }
-.my-plan-content-subtitle{
+
+.my-plan-content-subtitle {
     color: var(--Dark-03, #737272);
     font-size: 25px;
     font-weight: 500;
+}
+
+
+/* Gradient Image Background */
+.rectangle-background {
+    margin: 20px auto;
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%), url("/images/watch.png");
+    width: 1140px;
+    height: 300px;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+}
+
+.gradient-image-title {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 60px 60px;
+}
+
+.gradient-image-btn {
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0px;
+    color: #F15B22;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0px 60px;
 }
